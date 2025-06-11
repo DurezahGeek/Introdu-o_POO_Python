@@ -1,21 +1,51 @@
-# 🔐 Resumo sobre Encapsulamento e Propriedades em Python – Curso DIO + Suzano
+# 🐍 Resumo: Programação Orientada a Objetos (POO) em Python
 
-Este repositório contém resumos e anotações pessoais que estou desenvolvendo como parte do meu aprendizado no curso da DIO (Digital Innovation One) em parceria com a Suzano.
+Este repositório contém **resumos e exemplos práticos** sobre **Programação Orientada a Objetos (POO)** em Python.  
+Os conteúdos foram desenvolvidos como parte do meu aprendizado no **curso da Digital Innovation One (DIO) em parceria com a Suzano**.
 
-O objetivo deste material é reforçar os conceitos de encapsulamento na Programação Orientada a Objetos (POO) usando Python, incluindo:
+> 📌 **Objetivo:** Fixar os principais conceitos de POO com exemplos práticos, simples e comentados.
 
-## 🧠 Tópicos abordados
+---
 
-- Conceito de encapsulamento e proteção de dados em classes
-- Uso de atributos públicos e protegidos (convenção com underline)
-- Criação de propriedades com `@property`, `@setter` e `@deleter`
-- Controle do acesso e modificação de atributos via propriedades
-- Exemplos práticos para entender como aplicar encapsulamento
+## 📚 Conteúdo Abordado
 
-## 🛠 Objetivo
+- ✅ O que é Programação Orientada a Objetos
+- ✅ Paradigmas de programação (imperativo, funcional, orientado a eventos, etc.)
+- ✅ Diferença entre classe e objeto
+- ✅ Atributos e métodos
+- ✅ Construtor (`__init__`) e destrutor (`__del__`)
+- ✅ Criação e manipulação de objetos
+- ✅ Exemplos com classes reais (Cachorro, Carro, Fruta)
 
-Este resumo foi feito por mim para facilitar a fixação dos conteúdos aprendidos no curso. Não é material oficial, mas uma forma de praticar e aprender de forma mais efetiva.
+---
 
-## 👩‍💻 Sobre o curso
+## 🧪 Exemplos Práticos
 
-Curso realizado na plataforma **DIO (Digital Innovation One)** em parceria com a empresa **Suzano**, focado em introdução à programação e POO com Python.
+### 🐶 Classe `Cachorro`
+
+- Métodos: `latir()`, `dormir()`, `acordar()`
+- Demonstra uso de atributos e controle de estado (acordado ou dormindo)
+
+### 🚗 Classe `Carro`
+
+- Métodos: `buzinar()`, `abrir_sinal()`, `fechar_sinal()`
+- Inclui lógica de sinalização e multas com base no estado
+
+### 🍊 Classe `Fruta`
+
+- Uso do método destrutor `__del__()` para indicar a exclusão da instância
+
+---
+
+## 💡 Observações
+
+> Estes arquivos são **resumos pessoais**, feitos com base no conteúdo do **curso da DIO com a Suzano**, com foco **didático e prático**.  
+> O objetivo é reforçar o aprendizado por meio de código comentado, exemplos simples e aplicáveis ao dia a dia de quem está aprendendo POO em Python.
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
